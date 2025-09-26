@@ -314,14 +314,11 @@ function App() {
         <div className="bg-white rounded-lg shadow-lg p-4 mb-4">
           <h2 className="text-lg font-semibold text-gray-700 mb-2">Instructions:</h2>
           <ul className="text-sm text-gray-600 space-y-1">
-            <li>• Click to add vertices to create a polygon</li>
             <li>• Click anywhere near the starting point to close the polygon automatically</li>
             <li>• Vertices automatically snap to nearby existing vertices (orange indicator)</li>
-            <li>• Drag any vertex to modify the shape of completed polygons</li>
             <li>• Click on a polygon to select it, then click the red X button to delete</li>
             <li>• Double-click any polygon to delete it quickly</li>
             <li>• Use Ctrl+Z (Cmd+Z) to undo, Ctrl+Y or Ctrl+Shift+Z (Cmd+Y or Cmd+Shift+Z) to redo</li>
-            <li>• Create multiple polygons on the same canvas</li>
           </ul>
         </div>
 
